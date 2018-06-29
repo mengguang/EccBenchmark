@@ -63,7 +63,7 @@ func main() {
 		return
 	}
 
-	fmt.Printf("sig: %X\n",sig)
+	//fmt.Printf("sig: %X\n",sig)
 
 	bytePublicKey := crypto.FromECDSAPub(&(privateKey.PublicKey))
 	//
